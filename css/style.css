@@ -1,0 +1,124 @@
+
+a{text-decoration: none;}
+img{border: 0;}
+
+#dictionary  .box{width:100%;height:255px;display: inline-block;}
+#dictionary .box img{width:100%;height:100%;padding-bottom: 25px;}
+#dictionary .dictionary-a a{width:23.5%;display: inline-block;font-size: 12px;text-align: center;color:#000}
+#dictionary .dictionary-a a i{padding-right:3px;color:#777;font-size: 14px;}
+#dictionary  .item .list-a{height:80px;width:100%;display: inline-block;}
+#dictionary .item{padding:0}
+#dictionary .list-a .img{height:70px;margin:10px 5px 10px 10px;float:left;}
+#dictionary .list-a .img img{height:100%;}
+#dictionary .list-a h3{font-size: 15px;margin-top:10px;height:20px;color: #7c7c7c}
+#dictionary .list-a h4{font-size: 6px;font-weight: normal;color:#a4a3a3;width:100%;padding-top:30px;}
+#dictionary .list-a h4 span{float:right;}
+#dictionary .list-a h4 .item-icon-right{padding-right:2%}
+#dictionary   .list-b{width:100%;display: inline-block;}
+#dictionary .list-b .img{width:96%;height:100%;margin: 0 auto;}
+#dictionary .list-b img{width:100%;height:100%;}
+#dictionary .list-b span{line-height:30px;padding-left:2%;width:100%;font-size: 14px;}
+#dictionary .list-b span span{line-height:15px;padding-left:0;float:right;margin-top:8px;border-radius: 2px;border: 1px solid red;font-size:4px;width:40px;margin-right:2%;text-align: center;}
+#dictionary .list-b span i{font-size: 10px;color:#c2c2c2;}
+#dictionary .item-text-wrap{height:92px;}
+#dictionary .ao{height:40px;border-top:1px solid #ccc;border-bottom: 1px solid #ccc;line-height:40px;width:100%;}
+
+
+#encyclopedia .hea{border: 1px solid #eee;;background:#eee;width:94%;border-radius: 25px;height:34px;text-align: center;margin: 0 auto;}
+#encyclopedia .hea-a{font-size: 16px;line-height:34px;color:#ccc;}
+#encyclopedia .content-a{width:100%;background: #fff;padding:0 2%}
+#encyclopedia .content-a h3{color:#454545;}
+#encyclopedia .content-a p{height:30px;line-height:30px;margin: 0;color:#494949;}
+#encyclopedia .never{margin:10px 0;width:100%;background: #fff;padding:0 2%;height:350px;}
+#encyclopedia .never p{color:#494949;height:30px;line-height:30px;margin: 0;}
+#encyclopedia .never a{width:48%;float:left;display: inline-block;}
+#encyclopedia .never a:nth-child(6){margin-right:2%}
+#encyclopedia .never a:nth-child(2){margin-right:2%}
+#encyclopedia .never a img{width:100%;height:100%}
+#encyclopedia .never h3{font-weight: normal;font-size:8px;margin-top: 0;color:#969696}
+
+
+#translation .translation-content{background: #ddd;width:100%;height:100%}
+#translation .translation-a{width:94%;background: #fff;height:200px;margin: 0 auto;margin-top:10px;border-radius: 5px;box-shadow: 0 0 5px rgba(0,0,0,0.3);}
+#translation .translation-a1{border-bottom: 1px solid #ccc;background: #f8f8f8;}
+#translation .selece{width:70%;height:50px;border: 0;}
+#translation .selece option{background-color: rgba(0,0,0,0.7);color:#eee;}
+#translation .a1{color:#ccc;font-size:14px;border: 0;height:50px;background: #f8f8f8 }
+
+
+#my .img{width:100%;height:230px;display: inline-block;}
+#my .img img{width:100%;height:100%;}
+#my .my-light-border{background: #ddd;}
+#my .my-list-a{color:#6b6b6b;}
+#my .my-list-a1{margin:13px;width:25px;height:25px;color:#fff;font-size: 24px;text-align: center;line-height:25px;border-radius: 5px;}
+#my .my-list-aa{background: #ed8686;}
+#my .my-list-ab{background: #f9a244;font-size: 20px;}
+#my .my-list-ac{background: #57f9e0;font-size: 20px;}
+#my .my-list-ad{background: #767676;font-size: 20px;}
+#my .my-list-ae{background: #f9b061;font-size: 20px;}
+#my .my-list-a2{font-size: 16px;color:#6b6b6b}
+
+.tabs-striped .tab-item.tab-item-active{border-color:red;}
+.tabs-striped .tabs{background: #292929;border-bottom: 0;}
+.tabs{color:#fff;}
+.found{height:100px;background: #fff;width:100%;text-align: center;}
+.found-a{float:left;text-decoration: none;width:33%}
+.button:after{left:0px;top:0;bottom: 0px;right:0px;}
+.encyclopedia-item{height:90px;padding-left:0;paddimg:10px 0;}
+.encyclopedia-item img{height:100%;padding-right:10px;}
+.encyclopedia-item span{font-size: 10px;color:#969696}
+.encyclopedia-item h3{float:left;}
+
+
+#login .bar-header{background: #212121;}
+#login h3{color:#f5f5f5;line-height: 44px;font-size: 18px;}
+#login .img{width:120px;height:120px;margin: 30px auto;}
+#login .img img{width:100%;height:100%;}
+#login p{text-align: center;color: #333;font-size: 20px;margin-bottom: 30px;}
+#login .div{border: 1px solid #ffadbd;height:56px;margin: 0 44px;margin-bottom: 20px;border-radius: 5px;}
+#login .div img{display: block;float: left;margin-top:10px;}
+#login .qq img{max-width: 30px;max-height:32px;height:100%;width:100%;}
+#login .xinlang img{max-width: 30px;max-height:34px;height:100%;width:100%;}
+#login .wangyi img{max-width: 30px;max-height:34px;height:100%;width:100%;}
+#login .div span{font-size: 18px;padding-left:20px;line-height:56px;}
+#login .div span a{color:#676767}
+#login .div > div{width: 180px;height:56px;margin: auto;}
+#login h4{text-align: center;}
+#login h4 a{color:#fbb4c4;font-size: 18px;}
+
+#setup .bar-header{background: #212121;}
+#setup h3{color:#f5f5f5;line-height: 44px;font-size: 18px;}
+#setup .setup{background: #eee;}
+#setup .setup-item{height:60px;}
+#setup .setup-item a{color:#222;}
+#setup .setup-item a>div:nth-child(1){font-size: 26px;color:#79787e;}
+#setup .setup-item a>div:nth-child(3){font-size: 20px;color:#a5a6a0;}
+#setup .setup-item a>i{font-size: 18px;}
+
+#columns .columns-header{background: #f8f8f8;border-bottom: 1px solid #cacaca;}
+#columns .columns-content{padding:0 40px;background: #f8f8f8;}
+#columns h3{color:#000;line-height: 44px;font-size: 18px;margin-bottom: 0;}
+#columns .original h2{line-height:60px;font-size: 22px;margin-bottom: 0;color:#4b4b4b;}
+#columns .original ul li{float: left;width:97px;font-size: 15px;background: #fff;height:50px;text-align: center;line-height:50px;border-bottom:1px solid #eee;border-left:1px solid #eee;border-right:1px solid #eee;}
+#columns .original ul li a{color:#4b4b4b;}
+#columns .learning h2{line-height:60px;font-size: 22px;margin-bottom: 0;color:#4b4b4b;}
+#columns .learning ul li{float: left;width:97px;font-size: 15px;background: #fff;height:50px;text-align: center;line-height:50px;border-bottom:1px solid #eee;border-left:1px solid #eee;border-right:1px solid #eee;}
+#columns .learning ul li a{color:#4b4b4b;}
+#columns .world h2{line-height:60px;font-size: 22px;margin-bottom: 0;color:#4b4b4b;}
+#columns .world ul li{float: left;width:97px;font-size: 15px;background: #fff;height:50px;text-align: center;line-height:50px;border-bottom:1px solid #eee;border-left:1px solid #eee;border-right:1px solid #eee;}
+#columns .world ul li a{color:#4b4b4b;}
+
+#spoken .spoken-header{background: #f8f8f8;border-bottom: 1px solid #cacaca;}
+#spoken h3{color:#000;line-height: 44px;font-size: 18px;margin-bottom: 0;}
+#spoken .spoken-item img{float: left;max-width: 120px;max-height:90px;width:100%;height:100%;}
+#spoken .spoken-item h4{font-size: 17px;color:#31312f;padding-left:20px;white-space: normal;}
+
+#music .music-header{background: #f8f8f8;border-bottom: 1px solid #cacaca;}
+#music h3{color:#000;line-height: 44px;font-size: 18px;margin-bottom: 0;}
+#music .music-item img{float: left;max-width: 120px;max-height:90px;width:100%;height:100%;}
+#music .music-item h4{font-size: 17px;color:#31312f;padding-left:20px;white-space: normal;}
+
+#video .video-header{background: #f8f8f8;border-bottom: 1px solid #cacaca;}
+#video h3{color:#000;line-height: 44px;font-size: 18px;margin-bottom: 0;}
+#video .video-item img{float: left;max-width: 120px;max-height:90px;width:100%;height:100%;}
+#video .video-item h4{font-size: 17px;color:#31312f;padding-left:20px;white-space: normal;}

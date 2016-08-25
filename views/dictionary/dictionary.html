@@ -1,0 +1,116 @@
+<ion-view id="dictionary">
+
+    <ion-content direction="y">
+        <!--<ion-refresher pulling-icon="icon ion-ios-cloud-download-outline" pulling-text="下拉刷新"></ion-refresher>-->
+
+        <ion-slide-box auto-play="true"
+                       does-continue="true"
+                       active-slide="data.page">
+
+            <ion-slide>
+                <a href="#" class="box"><img src="images/dict-1_03.jpg"/></a>
+            </ion-slide>
+            <ion-slide>
+                <a href="#" class="box"><img src="images/dict-2_03.jpg"/></a>
+            </ion-slide>
+            <ion-slide>
+                <a href="#" class="box"><img src="images/dict-3_03.jpg"/></a>
+            </ion-slide>
+            <ion-slide>
+                <a href="#" class="box"><img src="images/dict-4_03.jpg"/></a>
+            </ion-slide>
+            <ion-slide>
+                <a href="#" class="box"><img src="images/dict-5_03.jpg"/></a>
+            </ion-slide>
+            <ion-slide>
+                <a href="#" class="box"><img src="images/dict-6_03.jpg"/></a>
+            </ion-slide>
+            <ion-slide>
+                <a href="#" class="box"><img src="images/dict-7_03.jpg"/></a>
+            </ion-slide>
+        </ion-slide-box>
+
+        <div class="ao">
+            <div style="width:96%;margin: 0 auto;" class="dictionary-a">
+                <a ui-sref="tabs.music">
+                    <i class="icon ion-headphone"></i>
+                    听英乐
+                </a>
+                <a ui-sref="tabs.spoken">
+                    <i class="icon ion-ios-chatbubble-outline"></i>
+                    练口语
+                </a>
+                <a ui-sref="tabs.video">
+                    <i class="icon ion-ios-star-outline"></i>
+                    看视频
+                </a>
+                <a ui-sref="tabs.columns">
+                    <i class="icon ion-more"></i>
+                    全部栏目
+                </a>
+            </div>
+        </div>
+
+        <div class="list">
+
+            <a href="#" class="item item-icon-left list-a item-text-wrap">
+                <div class="img"><img src="images/dict-icon_03.jpg"/></div>
+                <h3>胆小别点开！两句话就能把你吓死的故事</h3>
+                <h4>休闲音乐<span class="ion-chevron-down  item-icon-right"></span></h4>
+            </a>
+            <a href="#" class="item item-icon-left list-a item-text-wrap">
+                <div class="img"><img src="images/dict-icon_08.jpg"/></div>
+                <h3>《暮光之城》最精彩的一幕,你看过吗?</h3>
+                <h4>E口同声<span class="ion-chevron-down  item-icon-right"></span></h4>
+
+            </a>
+            <a href="#" class="item item-icon-left list-b">
+                <span>Youtube上很火的一段MV一场……<span>精选</span></span>
+                <div class="img"><img src="images/dict-icon_10.jpg"/></div>
+                <span><i>Coldplay-Up&Up</i></span>
+            </a>
+            <a href="#" class="item item-icon-left list-a item-text-wrap">
+                <div class="img"><img src="images/9_03.jpg"/></div>
+                <h3 class="">四六级？老司机带你通关</h3>
+                <h4>四六级<span class="ion-chevron-down  item-icon-right"></span></h4>
+
+            </a>
+            <a href="#" class="item item-icon-left list-a  item-text-wrap">
+                <div class="img"><img src="images/9_06.jpg"/></div>
+                <h3>科学测评世界上最美的女性面孔！你觉得结果靠谱吗？</h3>
+                <h4>歪果日报<span class="ion-chevron-down  item-icon-right"></span></h4>
+
+            </a>
+            <a href="#" class="item item-icon-left list-a item-text-wrap">
+                <div class="img"><img src="images/9_08.jpg"/></div>
+                <h3>【夜读】如何让我遇见你，在我最美丽的时刻</h3>
+                <h4>晨读·夜读<span class="ion-chevron-down  item-icon-right"></span></h4>
+
+            </a>
+            <a href="#" class="item item-icon-left list-b">
+                <span>你了解单身汪的5大独特优势吗？<span>精选</span></span>
+                <div class="img"><img src="images/jingxuan2_03.jpg"/></div>
+                <span><i>终于找到了安慰～</i></span>
+            </a>
+            <a href="#" class="item item-icon-left list-a item-text-wrap">
+                <div class="img"><img src="images/aa_03.jpg"/></div>
+                <h3 class="">纠结！早上洗澡好还是晚上？看完这些你就知道了</h3>
+                <h4>奇闻趣事<span class="ion-chevron-down  item-icon-right"></span></h4>
+
+            </a>
+            <a href="#" class="item item-icon-left list-a  item-text-wrap">
+                <div class="img"><img src="images/aa_06.jpg"/></div>
+                <h3>【颜值竞技场女神篇】里约奥运参加者颜值大PK！</h3>
+                <h4>颜值竞技场<span class="ion-chevron-down  item-icon-right"></span></h4>
+
+            </a>
+            <a href="#" class="item item-icon-left list-a item-text-wrap">
+                <div class="img"><img src="images/aa_08.jpg"/></div>
+                <h3>#语音模仿秀#不想做段子手的老司机不是好编剧</h3>
+                <h4>圈子精选<span class="ion-chevron-down  item-icon-right"></span></h4>
+
+            </a>
+        </div>
+        <ion-infinite-scroll on-infinite="loadMore()" immediate-check="false"></ion-infinite-scroll>
+    </ion-content>
+</ion-view>

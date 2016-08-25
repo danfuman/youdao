@@ -1,0 +1,17 @@
+<ion-view id="music">
+    <ion-nav-bar class="music-header">
+        <ion-nav-back-button>
+            <i class="icon ion-chevron-left"></i>后退
+        </ion-nav-back-button>
+        <ion-nav-title><h3>听英乐</h3></ion-nav-title>
+    </ion-nav-bar>
+    <ion-content>
+        <list>
+            <div class="item music-item"   ng-repeat="product in products">
+                <img ng-src="{{product.img}}"/>
+                <h4>{{product.content}}</h4>
+            </div>
+        </list>
+        <ion-infinite-scroll on-infinite="loadMore()" immediate-check="false"></ion-infinite-scroll>
+    </ion-content>
+</ion-view>
